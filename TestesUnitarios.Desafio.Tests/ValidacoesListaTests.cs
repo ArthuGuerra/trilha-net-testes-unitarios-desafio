@@ -44,12 +44,10 @@ public class ValidacoesListaTests
         var numeroParaProcurar = 10;
 
         // Act
-
-            bool resultado = _validacoes.ListaContemDeterminadoNumero(lista,10);
-
+        bool resultado = _validacoes.ListaContemDeterminadoNumero(lista,10);
+        
         // Assert
-
-            Assert.False(resultado);
+        Assert.False(resultado);
 
 
     }
@@ -81,11 +79,8 @@ public class ValidacoesListaTests
         // Arrange
         var lista = new List<int> { 5, -1, -8, 9 };
 
-
-
-            // Act
-
-                int resultado = _validacoes.RetornarMaiorNumeroLista(lista);
+        // Act
+        int resultado = _validacoes.RetornarMaiorNumeroLista(lista);
 
 
         // Assert
