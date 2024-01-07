@@ -4,8 +4,8 @@ namespace TestesUnitarios.Desafio.Console.Services
     {
         public List<int> RemoverNumerosNegativos(List<int> lista)
         {
-            var listaSemNegativos = lista.Where(x => x > 0);
-            return listaSemNegativos.ToList();
+            var listaSemNegativos = lista.Where(x => x > 0);  // filtra valores
+            return listaSemNegativos.ToList(); // transforma o resultado em sequencia de lista
         }
 
         public bool ListaContemDeterminadoNumero(List<int> lista, int numero)
