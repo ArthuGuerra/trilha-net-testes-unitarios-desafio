@@ -31,14 +31,6 @@ public class ValidacoesStringTests
 
         //TODO: Corrigir a chamada do método "ContemCaractere" da seção Act
         // Act
-
-
-       // public bool ContemCaractere(string texto, string textoProcurado)
-        //{
-        //    var contem = texto.Contains(textoProcurado);
-       //     return contem;
-       // }
-
         bool resultado = _validacoes.ContemCaractere(texto, textoProcurado);
 
         // Assert
